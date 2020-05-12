@@ -1,0 +1,90 @@
+body{
+margin: 0px;
+}
+
+body #main{
+text-align: center;
+margin-left: 2px;
+}
+
+.nav {
+padding-top: 5px;
+margin: 0px;
+background-color: rgb(140, 217, 140);
+border-bottom: 2px rgb(77, 77, 77);
+}
+
+.nav a{
+padding: 6px;
+text-align: center;
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.nav a:hover{
+background-color:rgb(26, 51, 0);
+}
+
+#main h2,h4{
+font-family: sans-serif; 
+}
+
+#main .spec{
+font-family: fantasy;
+}
+
+[type="button"]{
+padding: 5px 5px 2px 2px;
+border: 2px solid rgb(30, 123, 30);
+background-color: rgb(51, 133, 255);
+}
+[name ="quest"]{
+border-bottom: 1px ;
+}
+[name ="noAnswer"]{
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+
+hr{
+color: rgb(140, 217, 140);
+}
+
+img{
+border: 2px solid rgb(77, 77, 77);
+border-radius: 8px;
+}
+
+ol > li{
+text-transform: uppercase;
+}
+.nameInp *{
+border: 3px solid rgb(0, 92, 230);
+}
+
+h6 + p{
+font-family: sans-serif;
+color:rgb(20,30,70);
+}
+div > ol{
+border-top: 2px solid black;
+}
+article:first child{
+text-align: center;
+}
+article h2 + p{
+align-self: flex-start;
+color: rgb(204, 102, 0);
+}
+label{
+font-style: italic;
+}
+p{
+font-family: serif !important;
+}
+form span{
+background-color: red;
+}
